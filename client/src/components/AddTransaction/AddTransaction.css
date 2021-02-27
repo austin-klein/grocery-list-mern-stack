@@ -1,0 +1,54 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+  display: inline-block;
+  margin: 15px 0 5px 0;
+}
+
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  outline: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+
+}
+
+.method-btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: gray;
+  border: 0;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  outline: none;
+  margin: 0 1rem
+}
+
+.clicked {
+  background-color: blue;
+}

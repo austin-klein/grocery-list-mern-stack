@@ -1,0 +1,23 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
+    padding: 15px 10px;
+    font-size: 1.2em;
+}
+
+.delete-btn {
+    opacity: 0;
+    margin-left: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+li:hover .delete-btn {
+    cursor: pointer;
+    opacity: 1;
+}
